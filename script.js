@@ -9,3 +9,7 @@ for (let x = 0; x < 17; x++) {
         grid.appendChild(cell);
     }
 }
+
+grid.addEventListener('mouseover', (event) => {
+    event.target.style.backgroundColor = "yellow"; 
+});
