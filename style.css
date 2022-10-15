@@ -1,0 +1,14 @@
+#container {
+    display: grid;
+    height: 867px;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    gap: 5px;
+    background-color: lightblue;
+}
+
+.grid-cell {
+    background-color: blue;
+    border-color: red;
+    border-width: 5px;
+}
