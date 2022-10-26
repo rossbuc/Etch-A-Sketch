@@ -1,6 +1,7 @@
 #container {
     display: grid;
-    height: 867px;
+    height: 960px;
+    width: 960px;
     grid-template-columns: repeat(16, 1fr);
     grid-template-rows: repeat(16, 1fr);
     background-color: lightblue;
