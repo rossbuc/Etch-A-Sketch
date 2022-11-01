@@ -18,10 +18,20 @@ function gridBuild(gridSize) {
         }
     }
 
+    var resetButton = document.getElementById('resetBtn');
+    var gridCells = document.querySelectorAll(".grid-cell");
+    resetButton.addEventListener('click', () => {
+        gridCells.forEach( gridCell => {
+            gridCell.style.backgroundColor = "white";
+        })
+    });
+
     grid.addEventListener('mouseover', (event) => {
-        event.target.style.backgroundColor = "yellow"; 
+        event.target.style.backgroundColor = "black";
     });
 }
+
+
 
 
 
